@@ -14,7 +14,7 @@ class PostsController < ApplicationController
 
     redirect_to post_path(@post)
   else
-    render :'posts/new'
+    render :'/posts/new'
   end
 
   end
