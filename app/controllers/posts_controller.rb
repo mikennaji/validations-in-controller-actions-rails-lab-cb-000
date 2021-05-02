@@ -16,7 +16,7 @@ class PostsController < ApplicationController
   else
     render :'posts/new'
   end
-  
+
   end
 
   private
